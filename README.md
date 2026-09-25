@@ -6,14 +6,14 @@ Built automatically via GitHub Actions and published to the GitHub Container Reg
 ## Usage
 
 ```bash
-docker pull ghcr.io/evoila/nuttcp-image:latest
+docker pull ghcr.io/alinmear/nuttcp-image:latest
 
 # server mode
 docker run --rm -p 5000:5000/tcp -p 5001:5001/udp -p 5001:5001/tcp \
-  ghcr.io/evoila/nuttcp-image:latest -S
+  ghcr.io/alinmear/nuttcp-image:latest -S
 
 # client mode (example)
-docker run --rm ghcr.io/evoila/nuttcp-image:latest <server-ip>
+docker run --rm ghcr.io/alinmear/nuttcp-image:latest <server-ip>
 ```
 
 ## Available tags
